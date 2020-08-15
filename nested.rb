@@ -100,7 +100,7 @@ def adding_matz
   # languages = yukihiro_matsumoto[:languages]
   # languages << "LISP" "C"
 
-  programmer_hash
+  programmer_hash = {:yukihiro_matsumoto
 
   programmer_hash
     
