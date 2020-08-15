@@ -88,17 +88,19 @@ def adding_matz
   # contacts["Jon Snow"][:favorite_ice_cream_flavors] << "mint chip"
   # programmer_hash[:dennis_ritchie][:languages] << "Assembly"
   
-  programmer_hash << :yukihiro_matsumoto
-  programmer_hash[:yukihiro_matsumoto] << :known_for
-  programmer_hash[:yukihiro_matsumoto][:known_for] << "Ruby"
-  programmer_hash[:yukihiro_matsumoto] << :languages
-  programmer_hash[:yukihiro_matsumoto][:languages] << "LISP" "C"
+  # programmer_hash << :yukihiro_matsumoto
+  # programmer_hash[:yukihiro_matsumoto] << :known_for
+  # programmer_hash[:yukihiro_matsumoto][:known_for] << "Ruby"
+  # programmer_hash[:yukihiro_matsumoto] << :languages
+  # programmer_hash[:yukihiro_matsumoto][:languages] << "LISP" "C"
   
   # yukihiro_matsumoto = programmer_hash[:yukihiro_matsumoto]
   # known_for = yukihiro_matsumoto[:known_for]
   # known_for << "Ruby"
   # languages = yukihiro_matsumoto[:languages]
   # languages << "LISP" "C"
+
+  programmer_hash
 
   programmer_hash
     
